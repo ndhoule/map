@@ -34,4 +34,4 @@ map(square, [1, 2, 3]);
 Released under the [MIT license](LICENSE.md).
 
 [circleci-link]: https://circleci.com/gh/ndhoule/map
-[circleci-badge]: https://circleci.com/gh/ndhoule/map.svg?style=svg&circle-token=
+[circleci-badge]: https://circleci.com/gh/ndhoule/map.svg?style=svg&circle-token=70d335a8c955bf44faea736e8abc207f9bf852cf
