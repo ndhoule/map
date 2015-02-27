@@ -18,10 +18,16 @@ $ npm install map
 
 ## API
 
-TODO
 ### map(iterator : Function, collection : Object|Array|string) => Array
 
 Produce a new array by passing each value in the input `collection` through a transformative `iterator` function. The `iterator` function is passed three arguments: `(value, index, collection)`.
+
+```javascript
+var square = function(x) { return x * x; };
+
+map(square, [1, 2, 3]);
+//=> [1, 4, 9]
+```
 
 ## License
 
