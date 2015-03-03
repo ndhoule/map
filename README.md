@@ -1,4 +1,4 @@
-# map [![Circle CI][circleci-badge]][circleci-link]
+# map [![CI][ci-badge]][ci-link]
 
 Apply a function to a each element of a collection and return a new array of results.
 
@@ -33,5 +33,5 @@ map(square, [1, 2, 3]);
 
 Released under the [MIT license](LICENSE.md).
 
-[circleci-link]: https://circleci.com/gh/ndhoule/map
-[circleci-badge]: https://circleci.com/gh/ndhoule/map.svg?style=svg&circle-token=70d335a8c955bf44faea736e8abc207f9bf852cf
+[ci-link]: https://travis-ci.org/ndhoule/map
+[ci-badge]: https://travis-ci.org/ndhoule/map.svg?branch=master
