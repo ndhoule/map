@@ -1,6 +1,6 @@
 {
   "name": "@ndhoule/map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Apply a function to a each element of a collection and return a new array of results.",
   "main": "index.js",
   "repository": {
