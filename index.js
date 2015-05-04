@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var each = require('each');
+var each = require('@ndhoule/each');
 
 /**
  * Produce a new array by passing each value in the input `collection` through a transformative

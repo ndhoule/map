@@ -3,7 +3,7 @@
 'use strict';
 
 var assert = require('assert');
-var keys = require('keys');
+var keys = require('@ndhoule/keys');
 var sinon = require('sinon');
 var map = require('../');
 
