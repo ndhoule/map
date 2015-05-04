@@ -4,16 +4,9 @@ Apply a function to a each element of a collection and return a new array of res
 
 ## Installation
 
-Browser:
-
 ```sh
-component install ndhoule/map
-```
-
-Node:
-
-```sh
-$ npm install map
+$ component install ndhoule/map
+$ npm install @ndhoule/map
 ```
 
 ## API
