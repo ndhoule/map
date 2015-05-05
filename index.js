@@ -4,7 +4,8 @@
  * Module dependencies.
  */
 
-var each = require('@ndhoule/each');
+// XXX: Hacky fix for Duo not supporting scoped modules
+var each; try { each = require('@ndhoule/each'); } catch(e) { each = require('each'); }
 
 /**
  * Produce a new array by passing each value in the input `collection` through a transformative
