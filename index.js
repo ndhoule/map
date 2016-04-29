@@ -1,11 +1,10 @@
 'use strict';
 
-/**
+/*
  * Module dependencies.
  */
 
-// XXX: Hacky fix for Duo not supporting scoped modules
-var each; try { each = require('@ndhoule/each'); } catch(e) { each = require('each'); }
+var each = require('@ndhoule/each');
 
 /**
  * Produce a new array by passing each value in the input `collection` through a transformative
@@ -23,7 +22,6 @@ var each; try { each = require('@ndhoule/each'); } catch(e) { each = require('ea
  * map(square, [1, 2, 3]);
  * //=> [1, 4, 9]
  */
-
 var map = function map(iterator, collection) {
   if (typeof iterator !== 'function') {
     throw new TypeError('Expected a function but received a ' + typeof iterator);
@@ -38,7 +36,7 @@ var map = function map(iterator, collection) {
   return result;
 };
 
-/**
+/*
  * Exports.
  */
 
